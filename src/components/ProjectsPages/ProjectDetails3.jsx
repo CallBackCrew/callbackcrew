@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
@@ -56,8 +56,8 @@ function ProjectsDetails3() {
             <HeroPageTitle
                 title="Project Details"
                 breadcrumb={[
-                    { Link : '/', title: 'Home' },
-                    { Link : '/project-details', title: 'Project Details' },
+                    { Link: '/', title: 'Home' },
+                    { Link: '/project-details', title: 'Project Details' },
                 ]}
             />
 
@@ -75,49 +75,36 @@ function ProjectsDetails3() {
                     <div className="project-details__content">
                         <div className="row">
                             <div className="col-xl-8 col-lg-8">
-                            <div className="project-details__content-left">
-							<h3 className="">Here to Know About This Project</h3>
-							<p className="">There are many variations of passages of psum
-								available, but the majority have suffered alteration in some form, by injected
-								humour, or randomised words which don't look even slightly believable. If you are
-								going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-								embarrassing hidden in the middle of text. Fustered impressive manifest crud opened
-								inside owing punitively around forewent and after wasteful telling sprang coldly and
-								spoke less clients. Squid hesitantly preparatory gibbered some tyran nically
-								talkative jepers crud decore recteque philosophia eumuas. </p>
-							<p className="mb-5">Beyond more stoic this along goodness hey this this
-								wow manatee mongoose one as since a far flustered impressive manifest far crud
-								opened inside owing punitively around forewent and after wasteful telling sprang
-								coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran
-								nically talkative jeepers crud.</p>
-							<h3 className="">Project Challenges</h3>
-							<p className="mb-5">Eque porro est qui dolorem ipsum quia quaed inventore
-								veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus
-								quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is
-								simply dummy text of the printing and typesetting.</p>
-							<h3 className="">Organic Food Supply</h3>
-							<p className="">When an unknown printer took a galley of type and
-								scrambled it to make a type specimen book. It has survived not only five centuries,
-								but also the leap into electronic typesetting, remaining essentially unchanged. It
-								was popularised in the 1960s with the release of Letraset sheets containing. Neque
-								porro est qui dolorem ipsumo.</p>
-						</div>
+                                <div className="project-details__content-left">
+                                    <h3 className="">Here to Know About This Project</h3>
+                                    <p className="">Xplora is a leading pioneer in offering innovative smart devices and services for families. 
+                                        Our vision is to provide quality services connecting the family members in new ways with more interactions and engagement. </p>
+                                    <p className="mb-5">Xplora kids watch service is revolutionizing the way that kids can be introduced to the mobile world in a more safe and secure way. 
+                                        The service lets kids be kids, so parents can let them play, confident that they always know where they are, 
+                                        and they can reach them when they need to.</p>
+                                    <h3 className="">Project Challenges</h3>
+                                    <p className="mb-5">The major challenges was designing a system that prioritizes children’s safety while protecting sensitive personal data such as location, communication logs, and user profiles. 
+                                        Implementing strong security measures and privacy controls was essential to gain parents’ trust.</p>
+                                    <h3 className="">Project Specialties</h3>
+                                    <p className="">Smart device, mobile communications, Internet of Things, value added service, Wearable technology, Smartwatches for kids, Online safety for children, 
+                                        GPS technology, and active child monitoring.</p>
+                                </div>
                             </div>
                             <div className="col-xl-4 col-lg-4">
                                 <div className="project-details__content-right">
                                     <div className="project-details__details-box">
                                         <ul className="list-unstyled project-details__details-list">
-                                            <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li>
-                                            <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li>
-                                            <li><p className="project-details__client">Website</p><h4 className="project-details__name">www.domain.com</h4></li>
-                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">New York, USA</h4></li>
-                                            <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li>
+                                            {/* <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li> */}
+                                            {/* <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li> */}
+                                            <li><p className="project-details__client">Website</p><h4 className="project-details__name">www.xplora.com</h4></li>
+                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">Oslo, Norway</h4></li>
+                                            {/* <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li> */}
                                             <li>
                                                 <div className="project-details__social">
-                                                    <Link  to="#"><i className="fab fa-twitter"></i></Link >
-                                                    <Link  to="#"><i className="fab fa-facebook"></i></Link >
-                                                    <Link  to="#"><i className="fab fa-pinterest-p"></i></Link >
-                                                    <Link  to="#"><i className="fab fa-instagram"></i></Link >
+                                                    <Link to="#"><i className="fab fa-twitter"></i></Link >
+                                                    <Link to="#"><i className="fab fa-facebook"></i></Link >
+                                                    <Link to="#"><i className="fab fa-pinterest-p"></i></Link >
+                                                    <Link to="#"><i className="fab fa-instagram"></i></Link >
                                                 </div>
                                             </li>
                                         </ul>
@@ -133,14 +120,14 @@ function ProjectsDetails3() {
                                 <ul className="project-details__pagination list-unstyled clearfix">
                                     <li className="next">
                                         <div className="icon">
-                                            <Link  to="/projects-details2" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link >
+                                            <Link to="/projects-details2" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link >
                                         </div>
                                         <div className="content">Previous</div>
                                     </li>
                                     <li className="previous">
                                         <div className="content">Next</div>
                                         <div className="icon">
-                                            <Link  to="/projects-details4" aria-label="Next"><i className="lnr lnr-icon-arrow-right"></i></Link >
+                                            <Link to="/projects-details4" aria-label="Next"><i className="lnr lnr-icon-arrow-right"></i></Link >
                                         </div>
                                     </li>
                                 </ul>

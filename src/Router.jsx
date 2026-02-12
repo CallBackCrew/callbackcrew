@@ -15,9 +15,13 @@ import Projects from "./components/ProjectsPages/index.jsx";
 import News from "./components/NewsPages/index.jsx";
 import NewsDetails from "./components/NewsPages/NewsDetails.jsx";
 import TeamDetails from "./components/TeamPages/TeamDetails.jsx";
+import TeamDetails2 from "./components/TeamPages/TeamDetails2.jsx";
+import TeamDetails3 from "./components/TeamPages/TeamDetails3.jsx";
+import TeamDetails4 from "./components/TeamPages/TeamDetails4.jsx";
 import Contact from "./components/ContactPages/Contact.jsx";
 import Testimonial from "./components/TestimonialPages/Testimonial.jsx";
 import ProjectsDetails from "./components/ProjectsPages/ProjectsDetails.jsx";
+import ServicesDetail from "./components/ServicesPages/Services.jsx";
 import ServicesDetails from "./components/ServicesPages/ServicesDetails.jsx";
 import Pricing from "./components/PricingPages/Pricing.jsx";
 import PricingSwitcher from "./components/PricingPages/PricingSwitcher.jsx";
@@ -42,6 +46,7 @@ import ServicesDetails3 from "./components/ServicesPages/ServicesDetails3.jsx";
 import ServicesDetails4 from "./components/ServicesPages/ServicesDetails4.jsx";
 import ServicesDetails2 from "./components/ServicesPages/ServicesDetails2.jsx";
 import ServicesDetails5 from "./components/ServicesPages/ServicesDetails5.jsx";
+import ServicesDetails6 from "./components/ServicesPages/ServicesDetails6.jsx";
 
 
 const router = createBrowserRouter([
@@ -155,6 +160,20 @@ const router = createBrowserRouter([
         element: <TeamDetails />
       },
       {
+        path: "/team-details2",
+        element: <TeamDetails2 />
+      },
+      {
+        path: "/team-details3",
+        element: <TeamDetails3 />
+      },
+      {
+        path: "/team-details4",
+        element: <TeamDetails4 />
+      },
+
+
+      {
         path: "/testimonial",
         element: <Testimonial />
       },
@@ -186,9 +205,15 @@ const router = createBrowserRouter([
         path: "/Faq",
         element: <Faq />
       },
+
+      {
+        path: "/service-detail",
+        element: <ServicesDetail />
+      },
+
       {
         path: "/service-details",
-        element: <Services  Details />
+        element: <ServicesDetails />
       },
       {
         path: "/service-details1",
@@ -210,6 +235,15 @@ const router = createBrowserRouter([
         path: "/service-details5",
         element: <ServicesDetails5 />
       },
+
+    
+      {
+        path: "/service-details6",
+        element: <ServicesDetails6 />
+      },
+
+
+
       {
         path: "/pricing",
         element: <Pricing />

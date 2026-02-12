@@ -1,27 +1,26 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
-import ServiceDetailsImage from '../../assets/images/resource/service-details.jpeg';
+import ServiceDetailsImage from '../../assets/images/resource/Service-details6.png';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';
 import ServiceDetailsBackground2 from '../../assets/images/resource/overlay-shape.png';
 
-function ServicesDetails3() {
+function  ServicesDetails6() {
     const [showQues, setQues] = useState(1);
-    const openQuestion = (value) => {
-        setQues(value);
-    };
-
-    return (
-        <>
+        const openQuestion = (value) => {
+            setQues(value);
+        };
+    return(
+      <>
             <HomeOneHeader />
             <HeroPageTitle
                 title="Services Details"
                 breadcrumb={[
-                    { Link: '/', title: 'Home' },
-                    { Link: '/service-details', title: 'Services Details' },
+                    { Link : '/', title: 'Home' },
+                    { Link : '/service-details', title: 'Services Details' },
                 ]}
             />
             <section className="services-details">
@@ -36,44 +35,43 @@ function ServicesDetails3() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link to="/service-details3" className="current">
+                                                    <Link  to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link to="/service-details1">
+                                                    <Link  to="/service-details1">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>UI/UX Design</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link to="/service-details2">
+                                                    <Link  to="/service-details2" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Data Analysis</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link to="/service-details4" >
+                                                    <Link  to="/service-details3">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Website Development</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link to="/service-details5">
+                                                    <Link  to="/service-details5">
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>APP Development</span>
+                                                        <span>App Development</span>
                                                     </Link >
                                                 </li>
-
                                                 <li>
-                                                    <Link to="/service-details6" >
-                                                       <i className="fas fa-angle-right"></i>
+                                                    <Link  to="/service-details6" className="current">
+                                                        <i className="fas fa-angle-right"></i>
                                                         <span>Security System</span>
                                                     </Link >
                                                 </li>
                                                 {/* <li>
-                                                    <Link  to="/service-details">
+                                                    <Link  to="/service-details" className="current">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Data Visualization</span>
                                                     </Link >
@@ -93,7 +91,7 @@ function ServicesDetails3() {
                                                 <i className="lnr lnr-icon-pie-chart"></i>
                                             </div>
                                             <h3>Be healthy & eat only fresh</h3>
-                                            <Link to="page-contact.html" className="theme-btn btn-style-two bg-light">
+                                            <Link  to="page-contact.html" className="theme-btn btn-style-two bg-light">
                                                 <span className="btn-title text-black"> Contact us</span>
                                             </Link >
                                         </div>
@@ -121,7 +119,11 @@ function ServicesDetails3() {
                             <div className="services-details__content">
                                 <img src={ServiceDetailsImage} alt="" />
                                 <h2 className="mt-4">Service Overview</h2>
-                                <p> We turn your ideas into powerful mobile apps that drive results. From intuitive UI/UX to seamless performance, we build custom Android and iOS apps that engage users, enhance customer experience, and grow your business.</p>
+<p> 
+    We provide state-of-the-art security solutions designed to protect your digital and physical assets. 
+    From advanced surveillance systems and biometric access control to comprehensive cybersecurity 
+    audits, our expert team ensures your business remains resilient against evolving threats. 
+</p>
                                 {/* <div className="content mt-40">
                                     <div className="text">
                                         <h3>Service Center</h3>
@@ -171,53 +173,113 @@ function ServicesDetails3() {
                                 <div className="mt-25">
                                     <h3>Frequently Asked Question</h3>
                                     <p>Here are Some Frequently asked questions that may help you</p>
-                                    <ul className="accordion-box wow fadeInRight">
+
+                                <ul className="accordion-box wow fadeInRight">
+    {/* Question 1 */}
+    <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
+        <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
+            Do you provide both physical and cyber security solutions?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 1 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">Yes, we offer a holistic approach. This includes physical hardware like CCTV and access control, as well as digital security like firewalls, encryption, and network monitoring.</div>
+            </div>
+        </div>
+    </li>
+    
+    {/* Question 2 */}
+    <li className={`accordion block ${showQues === 2 ? 'active-block' : ''}`} onClick={() => openQuestion(2)}>
+        <div className={`acc-btn ${showQues === 2 ? 'active' : ''}`}>
+            Can I monitor my security system remotely?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 2 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">Absolutely. All our modern security systems come with mobile app integration, allowing you to view live feeds and manage access from anywhere in the world.</div>
+            </div>
+        </div>
+    </li>
+
+    {/* Question 3 */}
+    <li className={`accordion block ${showQues === 3 ? 'active-block' : ''}`} onClick={() => openQuestion(3)}>
+        <div className={`acc-btn ${showQues === 3 ? 'active' : ''}`}>
+            How often should my security system be audited?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 3 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">We recommend a professional security audit at least once a year or whenever your business undergoes significant structural or digital changes.</div>
+            </div>
+        </div>
+    </li>
+
+    {/* Question 4 */}
+    <li className={`accordion block ${showQues === 4 ? 'active-block' : ''}`} onClick={() => openQuestion(4)}>
+        <div className={`acc-btn ${showQues === 4 ? 'active' : ''}`}>
+            What happens during a power outage?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 4 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">Our systems include battery backups and fail-safe protocols to ensure that your premises remain locked and recorded even if the main power is interrupted.</div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+
+
+
+                                    {/* <ul className="accordion-box wow fadeInRight">
                                         <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
                                             <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
-                                                Why is digital marketing important for my business?
+                                                Why is data analysis important for businesses?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 1 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">It helps you reach a larger audience at a lower cost compared to traditional marketing. It’s also measurable, targeted, and offers real-time performance data.</div>
+                                                    <div className="text">Data analysis helps businesses make informed decisions, understand customer behavior, improve operations, and identify new opportunities or problems early.
+
+</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 2 ? 'active-block' : ''}`} onClick={() => openQuestion(2)}>
                                             <div className={`acc-btn ${showQues === 2 ? 'active' : ''}`}>
-                                                How is digital marketing different from traditional marketing?
+                                                What types of data can you analyze?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 2 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">Traditional marketing relies on offline methods like TV, radio, and print, whereas digital marketing uses online platforms. Digital marketing is more cost-effective and allows precise audience targeting.</div>
+                                                    <div className="text">We can analyze various data types including sales data, customer data, web analytics, financial records, social media metrics, survey responses, and more.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 3 ? 'active-block' : ''}`} onClick={() => openQuestion(3)}>
                                             <div className={`acc-btn ${showQues === 3 ? 'active' : ''}`}>
-                                                What services do you offer in digital marketing?
+                                                What’s the difference between data analysis and data science?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 3 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">We offer SEO, social media marketing, Google Ads, content marketing, email marketing, website design, and digital strategy consulting.</div>
+                                                    <div className="text">Data analysis focuses on examining and interpreting existing data to find patterns and insights. Data science is broader and includes building predictive models, using machine learning, and handling large-scale data processing.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 4 ? 'active-block' : ''}`} onClick={() => openQuestion(4)}>
                                             <div className={`acc-btn ${showQues === 4 ? 'active' : ''}`}>
-                                                How long does it take to see results from digital marketing?
+                                               Do I need technical knowledge to understand the results?
 
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 4 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">It depends on the service. SEO takes 3–6 months, while paid ads and social media campaigns can show results within days or weeks.z</div>
+                                                    <div className="text">No. We present the results in clear, simple visuals and summaries so you can make decisions without needing to be a data expert.</div>
                                                 </div>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
@@ -228,7 +290,7 @@ function ServicesDetails3() {
             <FooterHomeOne />
             <BackToTop />
         </>
-    );
+    )
 }
 
-export default ServicesDetails3;
+export default ServicesDetails6;

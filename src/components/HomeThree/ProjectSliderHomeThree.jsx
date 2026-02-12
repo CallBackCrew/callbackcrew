@@ -180,14 +180,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage6} alt="Project 3" /></Link >
+                                            <Link  to="/projects-details4"><img src={ProjectImage6} alt="Project 3" /></Link >
                                         </figure>
                                         <div className="overlay-box">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details4" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details" className='fs-5'>Idillionaire</Link >
+                                                <Link  to="/projects-details4" className='fs-5'>Idillionaire</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>

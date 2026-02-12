@@ -148,6 +148,7 @@ License: copyright commercial
   color: #7c858c;
 }
 
+
 body {
   background-color: #fff;
   background-attachment: fixed;
@@ -161,7 +162,13 @@ body {
   font-family: var(--text-font);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
+  overflow-y: scroll;      /* Keep scroll enabled */
+  scrollbar-width: none;
 }
+body::-webkit-scrollbar {
+  display: none;           /* Chrome, Safari, Edge */
+}
+
 
 p, .text {
   color: var(--text-color);
@@ -1590,7 +1597,7 @@ Main Header
 }
 .main-header .header-lower .logo-box {
   position: relative;
-  padding: 24px 0;
+  padding: 20px 0;
   min-width: 280px;
 }
 
@@ -2971,7 +2978,103 @@ Section Title
 .banner-section-three {
   position: relative;
   overflow: hidden;
+  height: 100vh !important; /* Ensures vertical slider fits screen */
+    width: 100%;
 }
+
+/* ---Start ADD NEW STYLES HERE --- */
+
+/* Styling the Swiper Arrows to look like Bootstrap/MDB */
+/* .banner-section-three .swiper-button-next,
+.banner-section-three .swiper-button-prev {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+    z-index: 10;
+} */
+
+.banner-section-three .swiper-button-next:after,
+.banner-section-three .swiper-button-prev:after {
+    font-size: 20px;
+}
+
+/* Styling the Pagination Dots to match MDB Indicators */
+/* .banner-section-three .swiper-pagination-bullet {
+    width: 30px;
+    height: 4px;
+    border-radius: 0; 
+    background: #fff;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+} */
+
+/* .banner-section-three .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: var(--theme-color2); 
+    width: 40px;
+} */
+
+
+.banner-section-three .bg-image {
+  transition: opacity 1.2s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.swiper-slide-active .bg-image {
+    animation: slowZoom 10s infinite alternate;
+}
+
+.banner-section-three .swiper-slide-active .bg-image {
+    animation: kenburns 15s ease infinite alternate;
+}
+@keyframes kenburns {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.15); /* Slow zoom in over 15 seconds */
+    }
+}
+.banner-section-three .content-box .title,
+.banner-section-three .content-box .sub-title,
+.banner-section-three .content-box .btn-box {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1.5s ease-in-out;
+}
+
+/* When the slide becomes active, animate the text */
+.banner-section-three .swiper-slide-active .content-box .title,
+.banner-section-three .swiper-slide-active .content-box .sub-title,
+.banner-section-three .swiper-slide-active .content-box .btn-box {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Delay the sub-title slightly for a layered effect */
+.banner-section-three .swiper-slide-active .sub-title {
+    transition-delay: 0.3s;
+}
+.banner-section-three .swiper-slide-active .btn-box {
+    transition-delay: 0.6s;
+}
+
+/* @keyframes slowZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.2); }
+} */
+/* ---End NEW STYLES HERE --- */
+
+
+
+
 .banner-section-three:before {
   position: absolute;
   right: 0;
@@ -3017,7 +3120,7 @@ Section Title
   text-align: center;
 }
 .banner-section-three .content-box .title {
-  font-size: 120px;
+  font-size: 80px;
   color: #ffffff;
   font-weight: 700;
   line-height: 1em;
@@ -3026,7 +3129,7 @@ Section Title
   margin-bottom: 0;
 }
 .banner-section-three .content-box .sub-title {
-  font-size: 50px;
+  font-size: 36px;
   color: #ffffff;
   font-weight: 400;
   line-height: 1em;

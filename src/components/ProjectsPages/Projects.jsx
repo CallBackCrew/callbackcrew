@@ -111,7 +111,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details4">Join Reflect</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details4">Idillionaire</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -138,6 +138,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+                    
 
                 </div>
             </div>

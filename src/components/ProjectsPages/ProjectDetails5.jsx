@@ -76,30 +76,20 @@ function ProjectsDetails5() {
                         <div className="row">
                             <div className="col-xl-8 col-lg-8">
                             <div className="project-details__content-left">
-							<h3 className="">Zirtue – Relationship-Based Lending Platform</h3>
-							<p className="">We create a Lend & Borrow application for all types of users. This is a USA-based Project. Our theme is that If someone has extra money he can trigger a message to his friends to give money on their interest & if someone has a shortage of money he can lend it from someone That is why we call our project headline “Loved ones & money do mix”. We create a smooth way of lending & borrowing money & also make returns very simple and easy on the pocket.</p>
-							<p className="mb-5">Zirtue is a peer-to-peer lending platform that simplifies and formalizes loans between friends and family. It allows users to lend or borrow money with structured repayment plans, promoting financial accountability and transparency. I contributed to this project by [insert your role or contribution, e.g., "working on the frontend", "improving user experience", or "collaborating on UI components in React"], helping ensure a smooth, secure, and user-friendly experience.</p>
-							<h3 className="">Technologies Used : </h3>
-							<ul className="mb-5">
-                                <li>MongoDb</li>
-                                <li>React Native</li>
-                                <li>Reactjs</li>
-                                <li>Firebase</li>
-                                <li>Node js</li>
-                                <li>ACH payments</li>
-                                <li>Dwolla</li>
-                                <li>Plaid</li>
-                                <li>Security Standard</li>
-                                <li>code audit</li>
-                                <li>Sms integration</li>
-                                <li>Email Integration</li>
-                                <li>Notification System</li>
-                                <li>Interest Rate in USA</li>
-                                <li>Scheduling tasks for recurring payment</li>
-                                <li>Amortization Payment Formula</li>
-                                <li>Monthly scheduler and cron job for payments</li>
-                                <li>Problem Solving techniques</li>
-                            </ul>
+							<h3 className="">Here to Know About This Project</h3>
+							<p className="">This project introduces Zirtue Pay, an alternative bill payment solution designed to address the 
+                                growing challenge of Americans living paycheck-to-paycheck. Zirtue Pay transforms this financial reality into 
+                                an opportunity by enabling billers to receive payments faster, easier, and without friction.</p>
+							<p className="mb-5">Backed by industry leaders such as Mastercard, Morgan Stanley, TruStage Insurance, and Northwestern 
+                                Mutual, the platform offers same-day and next-day bill payment options that meet customers where they are, while 
+                                simplifying the payment experience for billers.</p>
+							<h3 className="">Project Challenges</h3>
+							<p className="mb-5">The primary challenges addressed by this project is reducing late payments and delinquency without increasing 
+                                operational complexity for billers. Many traditional payment systems create friction through integrations, fees, or delayed processing.</p>
+							<h3 className="">Project Specialties</h3>
+							<p className="">The standout specialty of this project is its frictionless, no-integration, and cost-free model for billers. 
+                                Zirtue Pay helps increase revenue, reduce delinquency, and strengthen customer loyalty by offering flexible payment timing 
+                                without disrupting existing systems.</p>
 							{/* <h3 className="">Organic Food Supply</h3>
 							<p className="">When an unknown printer took a galley of type and
 								scrambled it to make a type specimen book. It has survived not only five centuries,
@@ -112,11 +102,11 @@ function ProjectsDetails5() {
                                 <div className="project-details__content-right">
                                     <div className="project-details__details-box">
                                         <ul className="list-unstyled project-details__details-list">
-                                            <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li>
-                                            <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li>
-                                            <li><p className="project-details__client">Website</p><a href="https://www.zirtue.com" className="project-details__name text-black ">https://www.zirtue.com</a></li>
-                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">New York, USA</h4></li>
-                                            <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li>
+                                            {/* <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li> */}
+                                            {/* <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li> */}
+                                            <li><p className="project-details__client">Website</p><a href="https://www.zirtue.com" className="project-details__name text-black ">www.zirtue.com</a></li>
+                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">Dallas, USA</h4></li>
+                                            {/* <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li> */}
                                             <li>
                                                 <div className="project-details__social">
                                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >

@@ -10,7 +10,7 @@ import FaqHomeOne from './FaqHomeOne.jsx';
 import ClientHomeOne from './ClientHomeOne.jsx';
 import BlogHomeOne from './BlogHomeOne.jsx';
 import CallToActionHomeOne from './CallToActionHomeOne.jsx';
-import HomeOneHeader from './HomeOneHeader.jsx';
+import Header from './HomeOneHeader.jsx';
 import Offer from './Offer.jsx';
 import TestimonialSection from './TestimonialHomeOne.jsx';
 import FunfactSection from './Funfact.jsx';
@@ -23,7 +23,7 @@ function HomeOne() {
 
     return (
         <>
-            <HomeOneHeader action={drawerAction.toggle} />
+            <Header action={drawerAction.toggle} />
             <ZeroHomeOne />
             <AboutHomeOne />
             <ServiceHomeOne />

@@ -7,7 +7,7 @@ import HeroPageTitle from './HeroPageTitle.jsx';
 import ProgressBar2 from '../../lib/ProgressBar2';
 
 // Import images
-import TeamDetailsImg from '../../assets/images/resource/team-details.jpg';
+import TeamDetailsImg from '../../assets/images/resource/team-4.jpeg';
 
 // Progress bar component
 const ProgressLine = ({ title, percent }) => (
@@ -47,9 +47,9 @@ function TeamDetails() {
                             <div className="col-xl-6 col-lg-6">
                                 <div className="team-details__top-right">
                                     <div className="team-details__top-content">
-                                        <h3 className="team-details__top-name">Aleesha Brown</h3>
-                                        <p className="team-details__top-title">Managing Director & CEO</p>
-                                        <p className="team-details__top-text-1">I help my clients stand out and they help me grow.</p>
+                                        <h3 className="team-details__top-name">Shahbaz Nawaz</h3>
+                                        <p className="team-details__top-title">Serinor Developer</p>
+                                        <p className="team-details__top-text-1">My MERN stack mastery ensures secure, scalable solutions delivered on time.</p>
                                         <div className="team-details__social">
                                             <Link  to="#"><i className="fab fa-twitter"></i></Link >
                                             <Link  to="#"><i className="fab fa-facebook"></i></Link >
@@ -57,10 +57,15 @@ function TeamDetails() {
                                             <Link  to="#"><i className="fab fa-instagram"></i></Link >
                                         </div>
                                         <p className="team-details__top-text-3">
-                                            Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae.
+                                             My expertise spans JavaScript, MongoDB, AWS, and Docker, 
+                                             with a knack for uncovering vulnerabilities in frameworks. I'm delving into ecosystem building, 
+                                             problem-solving, protocols, and algorithms. My core skills include backend development 
+                                             (Node.js, Microservices, MongoDB), web development (React.js), and creating robust APIs.
                                         </p>
                                         <p className="team-details__top-text-2">
-                                            When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto.
+                                            I also handle various databases (MongoDB, MySQL, SQL Server, DynamoDB) and payment gateways (Dwolla, Plaid, Stripe).
+                                             Proficient in cloud services like AWS and Heroku, I also have experience with PHP, ASP .Net, C#, 
+                                             and more.
                                         </p>
                                     </div>
                                 </div>
@@ -73,16 +78,23 @@ function TeamDetails() {
                                 <div className="team-details__bottom-left">
                                     <h4 className="team-details__bottom-left-title">Personal Experience</h4>
                                     <p className="team-details__bottom-left-text">
-                                        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia.
+                                        <p className=''><span className='fw-bold'>Xplora Technologies UK:</span> Specializes in innovative smartwatches for children, designed to enhance connectivity and safety</p>
+                                        <p className=''><span className='fw-bold'>Devsinc Lahore:</span> Continuously monitor, optimize, and improve web applications for better performance and efficiency.</p>
+                                        <p className=''><span className='fw-bold'>Data Magnetics Lahore:</span> All phases of project development, from concept to deployment. Plan and define project scope, goals, and deliverables in collaboration with stakeholders.</p>
+                                        <p className=''><span className='fw-bold'>Devbeans Lahore:</span> Design, develop, and implement high-quality software solutions using the MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
                                     </p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
                                 <div className="team-details__bottom-right">
                                     <div className="team-details__progress">
-                                        <ProgressBar2 title="Technology" targetPercentage={90} />
-                                        <ProgressBar2 title="Marketing" targetPercentage={80} />
-                                        <ProgressBar2 title="Business" targetPercentage={70} />
+                                        <ProgressBar2 title="JavaScript" targetPercentage={90} />
+                                        <ProgressBar2 title="TypeScript" targetPercentage={85} />
+                                        <ProgressBar2 title="Mongodb" targetPercentage={90} />
+                                        <ProgressBar2 title="Node js" targetPercentage={97} />
+                                        <ProgressBar2 title="Express js" targetPercentage={90} />
+                                        <ProgressBar2 title="React js" targetPercentage={85} />
+                                        <ProgressBar2 title="Web Socket" targetPercentage={90} />
                                     </div>
                                 </div>
                             </div>

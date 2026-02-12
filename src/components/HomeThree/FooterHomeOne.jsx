@@ -55,7 +55,7 @@ function FooterHomeOne({ className }) {
                             <div className="footer-widget contact-widget">
                                 <h3 className="widget-title  fs-3">Contact us</h3>
                                 <div className="widget-content">
-                                    <div className="text fs-5">HOUSE # 251 Block W, Scheme 3 W Block Farid Town, Farid Town, Sahiwal, 57000, Pakistan</div>
+                                    <div className="text fs-5">HOUSE # 251 Block W, Scheme 3 W Block Farid Town, Sahiwal, 57000, Pakistan</div>
                                     <ul className="contact-info">
                                         <li><i className="fa fa-envelope"></i> <Link  to="mailto:hr.callbackcrew@gmail.com">hr.callbackcrew@gmail.com</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link  to="tel:+923363313364">+92 3363313364</Link ></li>

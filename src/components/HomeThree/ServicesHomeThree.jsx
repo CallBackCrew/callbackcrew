@@ -13,10 +13,10 @@ function ServicesHomeThree({ className }) {
 			</div>
 			<div className="outer-box">
 				<div className="row justify-content-center">
-					<div className="service-block-three col wow fadeInUp">
+					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-002-graph"></i>
-							<h6 className="title"><Link  service-detailsto="/service-details4">Web <br/>Development</Link ></h6>
+							<h6 className="title"><Link  to="/service-details4">Web <br/>Development</Link ></h6>
 							<div className="text">We build responsive, high-performance websites</div>
 						</div>
 					</div>
@@ -24,7 +24,7 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-010-startup"></i>
-							<h6 className="title"><Link  to="/service-details">Digital <br/>Marketing</Link ></h6>
+							<h6 className="title"><Link  to="/service-details3">Digital <br/>Marketing</Link ></h6>
 							<div className="text">Providing the solutions for tech business</div>
 						</div>
 					</div>
@@ -32,7 +32,7 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="400ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-030-settings"></i>
-							<h6 className="title"><Link  to="/service-details3">APP <br/>Development</Link ></h6>
+							<h6 className="title"><Link  to="/service-details5">APP <br/>Development</Link ></h6>
 							<div className="text">Providing the solutions for tech business</div>
 						</div>
 					</div>

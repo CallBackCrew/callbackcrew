@@ -43,7 +43,7 @@ function Contact() {
 									<input name="form_subject" className="form-control required" type="text" placeholder="Enter Subject" />
 								</div>
 							</div> */}
-							<div className="col-sm-6">
+							<div className="col-sm-12">
 								<div className="mb-3">
 									<input name="form_phone" className="form-control" type="text" placeholder="Enter contact info" />
 								</div>
@@ -86,15 +86,14 @@ function Contact() {
 								</div>
 							</li>
 							<li>
-								<div className="icon">
-									<span className="lnr-icon-location"></span>
-								</div>
-								<div className="text">
-									<h6>Visit anytime</h6>
-									<div>HOUSE 251 Block W, Scheme 3 W Block Farid Town, Farid Town, Sahiwal</div>
-									
-								</div>
-							</li>
+                           <div className="icon">
+                             <span className="lnr-icon-location"></span>
+                             </div>
+                            <div className="text">
+                                  <h6>Visit anytime</h6>
+                            <div className="address">HOUSE 251 Block W, Scheme 3 W Block<br />Farid Town, Sahiwal</div>
+                                </div>
+                                </li>
 						</ul>
 					</div>
 				</div>

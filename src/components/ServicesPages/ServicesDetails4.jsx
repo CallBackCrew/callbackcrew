@@ -36,7 +36,7 @@ function ServicesDetails4() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link  to="/service-details" >
+                                                    <Link  to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >
@@ -60,9 +60,16 @@ function ServicesDetails4() {
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details3" >
+                                                    <Link  to="/service-details5" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>APP Development</span>
+                                                    </Link >
+                                                </li>
+
+                                                <li>
+                                                    <Link to="/service-details6" >
+                                                        <i className="fas fa-angle-right"></i>
+                                                            <span>Security System</span>
                                                     </Link >
                                                 </li>
                                                 {/* <li>

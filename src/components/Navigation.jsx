@@ -57,7 +57,7 @@ function Navigation() {
                     <li><Link  to="/error">Page 404</Link ></li>
                 </ul>
             </li> */}
-            <li><Link  to="/service-details">Service</Link ></li>
+            <li><Link  to="/service-detail">Service</Link ></li>
             {/* <li className="dropdown"><Link  href="#">Services</Link >
                 <ul>
                     <li><Link  to="/services">Services List</Link ></li>

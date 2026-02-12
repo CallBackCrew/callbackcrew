@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
-import ServiceDetailsImage from '../../assets/images/resource/service-details2.jpeg';
+import ServiceDetailsImage from '../../assets/images/resource/Service-details2.png';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';
 import ServiceDetailsBackground2 from '../../assets/images/resource/overlay-shape.png';
 
@@ -36,7 +36,7 @@ function ServicesDetails2() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link to="/service-details" >
+                                                    <Link to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >
@@ -60,9 +60,16 @@ function ServicesDetails2() {
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link to="/service-details3" >
+                                                    <Link to="/service-details5" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>APP Development</span>
+                                                    </Link >
+                                                </li>
+
+                                                <li>
+                                                    <Link to="/service-details6" >
+                                                        <i className="fas fa-angle-right"></i>
+                                                        <span>Security System</span>
                                                     </Link >
                                                 </li>
                                                 {/* <li>

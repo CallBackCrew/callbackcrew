@@ -19,7 +19,7 @@ function Header({ action, className, scroll }) {
         setMobileMenuOpen(false);
     };
     const toggleSearchPopup = () => setSearchPopupOpen((prev) => !prev); // Toggle search popup
-    const closeSearchPopup = () => setSearchPopupOpen(false); // Close search popup
+    // const closeSearchPopup = () => setSearchPopupOpen(false); // Close search popup
 
     return (
         <>
@@ -68,9 +68,13 @@ function Header({ action, className, scroll }) {
                             </nav>
                             <div className="outer-box">
                                 <div className="ui-btn-outer">
-                                    <button className="ui-btn ui-btn search-btn  me-sm-5 mt-2" onClick={toggleSearchPopup}>
+
+                                   {/* this search icon button */}
+
+                                    {/* <button className="ui-btn ui-btn search-btn  me-sm-5 mt-2" onClick={toggleSearchPopup}>
                                         <span className="icon lnr lnr-icon-search"></span>
-                                    </button>
+                                    </button> */}
+
                                     <Navigation />
                                     
                                     {/* <a href="#" className="ui-btn"><i className="lnr-icon-shopping-cart"></i></a> */}
@@ -139,7 +143,7 @@ function Header({ action, className, scroll }) {
                 </div>
 
                 {/* Search Popup */}
-                <div className={`search-popup ${isSearchPopupOpen ? 'active' : ''}`}>
+                {/* <div className={`search-popup ${isSearchPopupOpen ? 'active' : ''}`}>
                     <span className="search-back-drop" onClick={closeSearchPopup} />
                     <button className="close-search" onClick={closeSearchPopup}>
                         <span className="fa fa-times" />
@@ -159,7 +163,7 @@ function Header({ action, className, scroll }) {
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Sticky Header */}
                 <div className={`sticky-header ${scroll ? 'fixed-header animated slideInDown' : ''}`}>

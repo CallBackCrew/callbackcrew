@@ -36,7 +36,7 @@ function ServicesDetails() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link to="/service-details" className="current">
+                                                    <Link to="/service-details">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >

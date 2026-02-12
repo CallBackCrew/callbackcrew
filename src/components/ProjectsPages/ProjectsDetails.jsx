@@ -77,41 +77,28 @@ function ProjectsDetails() {
                             <div className="col-xl-8 col-lg-8">
                             <div className="project-details__content-left">
 							<h3 className="">Here to Know About This Project</h3>
-							<p className="">There are many variations of passages of psum
-								available, but the majority have suffered alteration in some form, by injected
-								humour, or randomised words which don't look even slightly believable. If you are
-								going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-								embarrassing hidden in the middle of text. Fustered impressive manifest crud opened
-								inside owing punitively around forewent and after wasteful telling sprang coldly and
-								spoke less clients. Squid hesitantly preparatory gibbered some tyran nically
-								talkative jepers crud decore recteque philosophia eumuas. </p>
-							<p className="mb-5">Beyond more stoic this along goodness hey this this
-								wow manatee mongoose one as since a far flustered impressive manifest far crud
-								opened inside owing punitively around forewent and after wasteful telling sprang
-								coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran
-								nically talkative jeepers crud.</p>
+							<p className="">This project represents DIOM Holding’s vision of redefining modern workspaces through innovative, flexible, and people-centric solutions. 
+                                DIOM is a Saudi-based workspace solutions provider offering co-working spaces, 
+                                serviced corporate offices, and multipurpose venues designed to support individuals, startups, and corporate organizations. </p>
+							<p className="mb-5">From leasing and workspace planning to design, build, and operation, the project delivers integrated environments that enhance performance, collaboration, 
+                                and overall work experience while aligning with each client’s unique business identity.</p>
 							<h3 className="">Project Challenges</h3>
-							<p className="mb-5">Eque porro est qui dolorem ipsum quia quaed inventore
-								veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus
-								quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is
-								simply dummy text of the printing and typesetting.</p>
-							<h3 className="">Organic Food Supply</h3>
-							<p className="">When an unknown printer took a galley of type and
-								scrambled it to make a type specimen book. It has survived not only five centuries,
-								but also the leap into electronic typesetting, remaining essentially unchanged. It
-								was popularised in the 1960s with the release of Letraset sheets containing. Neque
-								porro est qui dolorem ipsumo.</p>
+							<p className="mb-5">The main challenges of this project was creating workspaces that balance privacy, functionality, and premium design for diverse users. Designing serviced corporate offices and
+                                 multipurpose venues required careful planning to ensure adaptability for both corporate and creative events.</p>
+							<h3 className="">Project Specialties</h3>
+							<p className="">The key specialty of this project lies in its end-to-end workspace solutions, covering everything from design and build to day-to-day operation. The project offers premium serviced corporate offices that combine efficiency, privacy, and modern aesthetics, 
+                                along with multipurpose venues tailored for business and creative use</p>
 						</div>
                             </div>
                             <div className="col-xl-4 col-lg-4">
                                 <div className="project-details__content-right">
                                     <div className="project-details__details-box">
                                         <ul className="list-unstyled project-details__details-list">
-                                            <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li>
-                                            <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li>
-                                            <li><p className="project-details__client">Website</p><h4 className="project-details__name">www.domain.com</h4></li>
-                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">New York, USA</h4></li>
-                                            <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li>
+                                            {/* <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li> */}
+                                            {/* <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li> */}
+                                            <li><p className="project-details__client">Website</p><h4 className="project-details__name">www.diom.sa</h4></li>
+                                            <li><p className="project-details__client">Location</p><h4 className="project-details__name">Riyadh, Saudi Arabia</h4></li>
+                                            {/* <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li> */}
                                             <li>
                                                 <div className="project-details__social">
                                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >

@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
-import ServiceDetailsImage from '../../assets/images/resource/service-details2.jpeg';
+import ServiceDetailsImage from '../../assets/images/resource/Service-details5.png';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';
 import ServiceDetailsBackground2 from '../../assets/images/resource/overlay-shape.png';
 
@@ -36,7 +36,7 @@ function ServicesDetails5() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link  to="/service-details" >
+                                                    <Link  to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >
@@ -54,17 +54,25 @@ function ServicesDetails5() {
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details3">
+                                                    <Link  to="/service-details4">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Website Development</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details4">
+                                                    <Link  to="/service-details5" className="current">
                                                         <i className="fas fa-angle-right"></i>
+                                                        <span>App Development</span>
+                                                    </Link >
+                                                </li>
+
+                                                <li>
+                                                    <Link to="/service-details6" >
+                                                       <i className="fas fa-angle-right"></i>
                                                         <span>Security System</span>
                                                     </Link >
                                                 </li>
+
                                                 {/* <li>
                                                     <Link  to="/service-details" className="current">
                                                         <i className="fas fa-angle-right"></i>
@@ -173,7 +181,39 @@ function ServicesDetails5() {
                                 <div className="mt-25">
                                     <h3>Frequently Asked Question</h3>
                                     <p>Here are Some Frequently asked questions that may help you</p>
-                                    <ul className="accordion-box wow fadeInRight">
+
+                                <ul className="accordion-box wow fadeInRight">
+    {/* Question 1 */}
+    <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
+        <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
+            What platforms do you develop mobile apps for?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 1 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">We specialize in cross-platform development using Flutter and React Native, as well as native iOS (Swift) and Android (Kotlin) applications.</div>
+            </div>
+        </div>
+    </li>
+    {/* Question 2 */}
+    <li className={`accordion block ${showQues === 2 ? 'active-block' : ''}`} onClick={() => openQuestion(2)}>
+        <div className={`acc-btn ${showQues === 2 ? 'active' : ''}`}>
+            How long does it take to build a custom app?
+            <div className="icon fa fa-plus"></div>
+        </div>
+        <div className={`acc-content ${showQues === 2 ? 'current' : ''}`}>
+            <div className="content">
+                <div className="text">The timeline varies based on complexity. A simple app can take 2-3 months, while complex platforms with custom backends may take 6 months or more.</div>
+            </div>
+        </div>
+    </li>
+    {/* Add more app-related questions as needed... */}
+</ul>
+
+
+
+
+                                    {/* <ul className="accordion-box wow fadeInRight">
                                         <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
                                             <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
                                                 Why is data analysis important for businesses?
@@ -221,7 +261,7 @@ function ServicesDetails5() {
                                                 </div>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>

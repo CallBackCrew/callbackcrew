@@ -19,7 +19,7 @@ function ContactSectionThree() {
                             <div className="contact-info-box-two">
                                 <span className="icon fa fa-map-marker-alt"></span>
                                 <h6 className="title">Visit Us</h6>
-                                <div className="text">66 Road Broklyn Street, 600 New York, USA</div>
+                                <div className="text">HOUSE # 251 Block W, Scheme 3 W Block Farid Town, Sahiwal</div>
                             </div>
 
                             <div className="contact-info-box-two">
@@ -54,7 +54,7 @@ function ContactSectionThree() {
                                             <input type="email" name="Email" placeholder="Email Address" required />
                                         </div>
 
-                                        <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                        <div className="form-group col-lg-12 col-md-6 col-sm-12">
                                             <input type="text" name="Phone" placeholder="Contact info" required />
                                         </div>
 

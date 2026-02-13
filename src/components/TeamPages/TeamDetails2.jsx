@@ -7,7 +7,9 @@ import HeroPageTitle from './HeroPageTitle.jsx';
 import ProgressBar2 from '../../lib/ProgressBar2';
 
 // Import images
-import TeamDetailsImg from '../../assets/images/resource/team-details2.png';
+// import TeamDetailsImg from '../../assets/images/resource/team-details2.png';
+import TeamDetailsImg from '../../assets/images/resource/team-7.jpeg';
+
 
 // Progress bar component
 const ProgressLine = ({ title, percent }) => (

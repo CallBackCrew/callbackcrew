@@ -166,10 +166,10 @@ body {
   scrollbar-width: none;
 }
 body::-webkit-scrollbar {
-  display: none;           /* Chrome, Safari, Edge */
+  display: none;           
 }
 
-
+ 
 p, .text {
   color: var(--text-color);
   font-size: var(--body-font-size);

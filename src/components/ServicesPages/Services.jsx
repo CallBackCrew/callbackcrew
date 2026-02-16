@@ -59,7 +59,7 @@ const ServicesDetails = () => {
                                     <div className="icon-box"><i className="icon flaticon-business-048-coin"></i></div>
                                 </div>
                                 <div className="content-box">
-                                    <h5 className="title"><Link  to="/service-details3">Digital Marketing</Link ></h5>
+                                    <h5 className="title"><Link  to="/service-details3">Artificial Intelligence</Link ></h5>
                                     <div className="text">We’ve designed a culture that allows our stewards to assimilate</div>
                                     <Link  to="/service-details3" className="read-more">read More <i className="fa fa-long-arrow-alt-right"></i></Link >
                                 </div>
@@ -110,7 +110,7 @@ const ServicesDetails = () => {
                                     <div className="icon-box"><i className="icon flaticon-business-010-startup"></i></div>
                                 </div>
                                 <div className="content-box">
-                                    <h5 className="title"><Link  to="/service-details5">App</Link ></h5>
+                                    <h5 className="title"><Link  to="/service-details5">App Development</Link ></h5>
                                     <div className="text">We’ve designed a culture that allows our stewards to assimilate</div>
                                     <Link  to="/service-details5" className="read-more">read More <i className="fa fa-long-arrow-alt-right"></i></Link >
                                 </div>

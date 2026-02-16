@@ -24,7 +24,7 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="200ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-010-startup"></i>
-							<h6 className="title"><Link  to="/service-details3">Digital <br/>Marketing</Link ></h6>
+							<h6 className="title"><Link  to="/service-details3">Artificial <br/>Intelligence</Link ></h6>
 							<div className="text">Providing the solutions for tech business</div>
 						</div>
 					</div>

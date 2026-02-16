@@ -4,7 +4,7 @@ import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
-import ServiceDetailsImage from '../../assets/images/resource/service-details.jpeg';
+import ServiceDetailsImage from '../../assets/images/resource/service-details.png';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';
 import ServiceDetailsBackground2 from '../../assets/images/resource/overlay-shape.png';
 
@@ -38,7 +38,7 @@ function ServicesDetails3() {
                                                 <li>
                                                     <Link to="/service-details3" className="current">
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>Digital Marketing</span>
+                                                        <span>Artificial Intelligence</span>
                                                     </Link >
                                                 </li>
                                                 <li>
@@ -101,17 +101,7 @@ function ServicesDetails3() {
                                 </div>
                                 {/* End Banner Widget */}
 
-                                {/* Start Services Details Sidebar Single */}
-                                {/* <div className="sidebar-widget service-sidebar-single mt-5">
-                                    <div className="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
-                                        <Link  to="#" className="theme-btn btn-style-one d-grid">
-                                            <span className="btn-title">
-                                                <span className="fas fa-file-pdf"></span> download pdf file
-                                            </span>
-                                        </Link >
-                                    </div>
-                                </div> */}
-                                {/* End Services Details Sidebar Single */}
+                               
                             </div>
                         </div>
                         {/* End Services Details Sidebar */}
@@ -121,91 +111,56 @@ function ServicesDetails3() {
                             <div className="services-details__content">
                                 <img src={ServiceDetailsImage} alt="" />
                                 <h2 className="mt-4">Service Overview</h2>
-                                <p> We turn your ideas into powerful mobile apps that drive results. From intuitive UI/UX to seamless performance, we build custom Android and iOS apps that engage users, enhance customer experience, and grow your business.</p>
-                                {/* <div className="content mt-40">
-                                    <div className="text">
-                                        <h3>Service Center</h3>
-                                        <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                    </div>
-                                    <div className="feature-list">
-                                        <div className="row clearfix">
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Fast home delivery</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Secure Payments</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Delivering best products</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Food Inspections</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Generator Systems</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Assessments</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                                <p> Our Artificial Intelligence course provides a comprehensive, project-driven path designed to 
+                                    transform aspiring developers into AI-ready engineers. We go beyond simple theory by immersing 
+                                    students in the full lifecycle of AI development, from mastering Python-based logic to deploying 
+                                    sophisticated Large Language Models (LLMs).</p>
+                                
                                 <div className="mt-25">
                                     <h3>Frequently Asked Question</h3>
                                     <p>Here are Some Frequently asked questions that may help you</p>
                                     <ul className="accordion-box wow fadeInRight">
                                         <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
                                             <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
-                                                Why is digital marketing important for my business?
+                                                Do I need a strong background in advanced mathematics to succeed in this course?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 1 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">It helps you reach a larger audience at a lower cost compared to traditional marketing. It’s also measurable, targeted, and offers real-time performance data.</div>
+                                                    <div className="text">While AI is rooted in math, you do not need to be a mathematician to start. 
+                                                        We teach the essential "Applied Mathematics"—specifically Linear Algebra and Probability—through 
+                                                        the lens of programming. If you can understand basic logic and variables, we will provide the tools 
+                                                        to help you master the rest as you build your models.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 2 ? 'active-block' : ''}`} onClick={() => openQuestion(2)}>
                                             <div className={`acc-btn ${showQues === 2 ? 'active' : ''}`}>
-                                                How is digital marketing different from traditional marketing?
+                                                Will I learn how to integrate AI into my existing web or mobile apps?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 2 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">Traditional marketing relies on offline methods like TV, radio, and print, whereas digital marketing uses online platforms. Digital marketing is more cost-effective and allows precise audience targeting.</div>
+                                                    <div className="text">Absolutely. A major focus of our final module is API integration. You will learn how to 
+                                                        connect powerful models (like Gemini or GPT) to front-end frameworks. This ensures your AI projects 
+                                                        aren't just scripts running in a terminal but are functional features within a polished user interface.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 3 ? 'active-block' : ''}`} onClick={() => openQuestion(3)}>
                                             <div className={`acc-btn ${showQues === 3 ? 'active' : ''}`}>
-                                                What services do you offer in digital marketing?
+                                                What is the difference between "Machine Learning" and "Generative AI" in this curriculum?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 3 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">We offer SEO, social media marketing, Google Ads, content marketing, email marketing, website design, and digital strategy consulting.</div>
+                                                    <div className="text">Machine Learning (ML) focuses on prediction and classification, like forecasting sales or identifying objects in a 
+                                                        photo. Generative AI focuses on creation, such as generating text, code, or images. Our course covers
+                                                         both: the ML foundation gives you the "brain" for data.</div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li className={`accordion block active-block ${showQues === 4 ? 'active-block' : ''}`} onClick={() => openQuestion(4)}>
+                                        {/* <li className={`accordion block active-block ${showQues === 4 ? 'active-block' : ''}`} onClick={() => openQuestion(4)}>
                                             <div className={`acc-btn ${showQues === 4 ? 'active' : ''}`}>
                                                 How long does it take to see results from digital marketing?
 
@@ -216,7 +171,7 @@ function ServicesDetails3() {
                                                     <div className="text">It depends on the service. SEO takes 3–6 months, while paid ads and social media campaigns can show results within days or weeks.z</div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>

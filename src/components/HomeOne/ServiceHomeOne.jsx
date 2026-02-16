@@ -70,7 +70,7 @@ function ServicesSection() {
                             <div className="image-box">
                                 <figure className="image">
                                     <Link  to="/service-details">
-                                        <img src={Service3} alt="Digital Marketing" />
+                                        <img src={Service3} alt="Artificial Intelligence" />
                                     </Link >
                                 </figure>
                                 <div className="icon-box">
@@ -79,7 +79,7 @@ function ServicesSection() {
                             </div>
                             <div className="content-box">
                                 <h5 className="title">
-                                    <Link  to="/service-details">Digital Marketing</Link >
+                                    <Link  to="/service-details">Artificial Intelligence</Link >
                                 </h5>
                                 <div className="text">We’ve designed a culture that allows our stewards to assimilate</div>
                                 <Link  to="/service-details" className="read-more">

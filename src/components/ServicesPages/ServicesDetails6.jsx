@@ -37,7 +37,7 @@ function  ServicesDetails6() {
                                                 <li>
                                                     <Link  to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>Digital Marketing</span>
+                                                        <span>Artificial Intelligenceg</span>
                                                     </Link >
                                                 </li>
                                                 <li>

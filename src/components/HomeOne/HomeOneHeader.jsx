@@ -62,6 +62,7 @@ function Header({ action, className, scroll }) {
                             <div className="logo">
                                 <Link  to="/"><img src={logo2} alt="Company Logo" title="Company" /></Link >
                             </div>
+                            
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">

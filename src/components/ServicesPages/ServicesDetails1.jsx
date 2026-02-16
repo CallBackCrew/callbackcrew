@@ -38,7 +38,7 @@ function ServicesDetails1() {
                                                 <li>
                                                     <Link to="/service-details3" >
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>Digital Marketing</span>
+                                                        <span>Artificial Intelligence</span>
                                                     </Link >
                                                 </li>
                                                 <li>
@@ -121,52 +121,7 @@ function ServicesDetails1() {
                                 <img src={ServiceDetailsImage} alt="" />
                                 <h2 className="mt-4">Service Overview</h2>
                                 <p> We craft user-friendly and visually stunning interfaces to elevate your app or website experience. Our designs are intuitive and engaging, ensuring strong connections with your brand.</p>
-                                {/* <div className="content mt-40">
-                                    <div className="text">
-                                        <h3>Service Center</h3>
-                                        <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                    </div>
-                                    <div className="feature-list">
-                                        <div className="row clearfix">
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Fast home delivery</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Secure Payments</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Delivering best products</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Food Inspections</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Generator Systems</h6>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-12 column">
-                                                <div className="single-item">
-                                                    <div className="icon-box"><i className="fas fa-check-circle"></i></div>
-                                                    <h6 className="title">Assessments</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                               
                                 <div className="mt-25">
                                     <h3>Frequently Asked Question</h3>
                                     <p>Here are Some Frequently asked questions that may help you</p>

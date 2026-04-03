@@ -45,7 +45,7 @@ function TeamSectionTwo() {
                         <div className="inner-box">
                             <div className="info-box">
                                 <h5 className="name">
-                                    <Link  to="/team-details3">Muzamil Hussain</Link >
+                                    <Link  to="/muzamilhussain-mern-stack-developer">Muzamil Hussain</Link >
                                 </h5>
                                 <span className="designation">Developer</span>
                                 <span className="share-icon fa fa-share-alt"></span>
@@ -58,7 +58,7 @@ function TeamSectionTwo() {
                             </div>
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link  to="/team-details3">
+                                    <Link  to="/muzamilhussain-mern-stack-developer">
                                         <img src={TeamImage3} alt="Richerd William" />
                                     </Link >
                                 </figure>

@@ -164,7 +164,7 @@ const router = createBrowserRouter([
         element: <TeamDetails2 />
       },
       {
-        path: "/team-details3",
+        path: "/muzamilhussain-mern-stack-developer",
         element: <TeamDetails3 />
       },
       {
